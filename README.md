@@ -17,16 +17,16 @@ This scripts tries to clean the data provided by Samsung which measures human ac
 * data.table
 * 
 
-== How to Run
+**How to Run**
 
 You can run by calling 'TimeEstimator.estimate(leaf_positions, X)'. I have already added the interview example in this class so you can run time_estimator and it will execute the interview example
 
-== Dependencies
+**Dependencies**
 
 * RSpec 3 and above
 
 
-== Complexity
+**Complexity**
 
 * Space complexity is kept to O(X)
 * Runtime complexity is O(n) in worst case scenario but in best case where we do shortcut its O(1)
